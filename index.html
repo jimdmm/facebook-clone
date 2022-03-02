@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!--Início do Header-->
+    <div class="header">
+        <div class="header__left">
+            <img src="./assets/images/fb-logo.png" alt="">
+            <div class="header_input">
+                <span class="material-icons">search</span>
+                <input type="text" placeholder="Search Facebook">
+            </div>
+        </div>
+        <div class="header__middle">
+            <div class="header__option active">
+                <span class="material-icons">home</span>
+            </div>
+            <div class="header__option">
+                <span class="material-icons">flag</span>
+            </div>
+            <div class="header__option">
+                <span class="material-icons">subscriptions</span>
+            </div>
+            <div class="header__option">
+                <span class="material-icons">storefront</span>
+            </div>
+            <div class="header__option">
+                <span class="material-icons">supervised_user_circle</span>
+            </div>
+        </div>
+
+        <div class="header__right">
+            <div class="header__info">
+                <img class="user__avatar" src="./assets/images/avatar.png" alt="">
+                <h4>User777</h4>
+            </div>
+            <span class="material-icons">add</span>
+            <span class="material-icons">forum</span>
+            <span class="material-icons">notifications_active</span>
+            <span class="material-icons">expand_more</span>
+        </div>
+    </div>
+    <!--Fim do Header-->
+
+    <!--Início do body Principal-->
+    <div class="main__body">
+        <!--Início da Barra Lateral-->
+        <div class="sidebar">
+            <div class="sidebarRow">
+                <img class="user__avatar" src="./assets/images/avatar.png" alt="">
+                <h4>user777</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-icons">local_hospital</span>
+                <h4>Covid-19 Information Center</h4>
+            </div>
+
+            <div class="sidebarRow">
+                <span class="material-icons">emoji_flags</span>
+                <h4>Pages</h4>
+            </div>
+
+            <div class="sidebarRow">
+                <span class="material-icons">people</span>
+                <h4>People</h4>
+            </div>
+
+            <div class="sidebarRow">
+                <span class="material-icons">chat</span>
+                <h4>Messenger</h4>
+            </div>
+
+            <div class="sidebarRow">
+                <span class="material-icons">storefront</span>
+                <h4>Marketplace</h4>
+            </div>
+
+            <div class="sidebarRow">
+                <span class="material-icons">video_library</span>
+                <h4>Vídeos</h4>
+            </div>
+
+            <div class="sidebarRow">
+                <span class="material-icons">expand_more</span>
+                <h4>More</h4>
+            </div>
+        </div>
+        <!--Fim da Barra Lateral-->
+
+        <!--Início do Feed-->
+        <div class="feed">
+            <div class="storyReel">
+                <!-- Início do Story-->
+                <div style="background-image:url(./assets/images/image2.jpg) ;" class="story">
+                    <img class="user__avatar story__avatar" src="./assets/images/avatar.png" alt="">
+                    <h4>User777</h4>
+                </div>
+                <!-- Fim do Story-->
+                <!-- Início do Story-->
+                <div style="background-image:url(./assets/images/image2.jpg) ;" class="story">
+                    <img class="user__avatar story__avatar" src="./assets/images/avatar.png" alt="">
+                    <h4>User777</h4>
+                </div>
+                <!-- Fim do Story-->
+                <!-- Início do Story-->
+                <div style="background-image:url(./assets/images/image2.jpg) ;" class="story">
+                    <img class="user__avatar story__avatar" src="./assets/images/avatar.png" alt="">
+                    <h4>User777</h4>
+                </div>
+                <!-- Fim do Story-->
+                <!-- Início do Story-->
+                <div style="background-image:url(./assets/images/image2.jpg) ;" class="story">
+                    <img class="user__avatar story__avatar" src="./assets/images/avatar.png" alt="">
+                    <h4>User777</h4>
+                </div>
+                <!-- Fim do Story-->
+                <!-- Início do Story-->
+                <div style="background-image:url(./assets/images/image2.jpg) ;" class="story">
+                    <img class="user__avatar story__avatar" src="./assets/images/avatar.png" alt="">
+                    <h4>User777</h4>
+                </div>
+                <!-- Fim do Story-->
+                <!-- Início do Story-->
+                <div style="background-image:url(./assets/images/image2.jpg) ;" class="story">
+                    <img class="user__avatar story__avatar" src="./assets/images/avatar.png" alt="">
+                    <h4>User777</h4>
+                </div>
+                <!-- Fim do Story-->
+            </div>
+
+            <!-- Início remetente da mensagem-->
+            <div class="messageSender">
+                <div class="messageSender__top">
+                    <img class="user__avatar" src="./assets/images/avatar.png" alt="">
+                    <form>
+                        <input type="text" class="messageSender__input" placeholder="What's on your mind?" />
+                    </form>
+                </div>
+
+                <div class="messageSender__bottom">
+                    <div class="messageSender__option">
+                        <span style="color:red" class="material-icons">videocam</span>
+                        <h3>live</h3>
+                    </div>
+
+                    <div class="messageSender__option">
+                        <span style="color:green" class="material-icons">photo_library</span>
+                        <h3>Photo</h3>
+                    </div>
+
+                    <div class="messageSender__option">
+                        <span style="color:orange" class="material-icons">insert_emoticon </span>
+                        <h3>Feeling</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim remetente da mensagem-->
+
+            <!-- Início Post-->
+            <div class="post">
+                <div class="post__top">
+                    <img class="user__avatar post__avatar" src="./assets/images/avatar.png" alt="">
+                    <div class="post__topInfo">
+                        <h3>User777</h3>
+                        <p>02 março ás 16:26</p>
+                    </div>
+                </div>
+
+                <div class="post__bottom">
+                    <p>message</p>
+                </div>
+
+                <div class="post__image">
+                    <img src="./assets/images/post1.jpg" alt="">
+                </div>
+
+                <div class="post__options">
+                    <div class="post__option">
+                        <span class="material-icons">thumb_up</span>
+                        <p>Like</p>
+                    </div>
+
+                    <div class="post__option">
+                        <span class="material-icons">chat_bubble_outline</span>
+                        <p>Comment</p>
+                    </div>
+
+                    <div class="post__option">
+                        <span class="material-icons">near_me</span>
+                        <p>Share</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post">
+                <div class="post__top">
+                    <img class="user__avatar post__avatar" src="./assets/images/avatar2.png" alt="">
+                    <div class="post__topInfo">
+                        <h3>User777</h3>
+                        <p>02 março ás 16:26</p>
+                    </div>
+                </div>
+
+                <div class="post__bottom">
+                    <p>message</p>
+                </div>
+
+                <div class="post__image">
+                    <img src="./assets/images/post2.jpg" alt="">
+                </div>
+
+                <div class="post__options">
+                    <div class="post__option">
+                        <span class="material-icons">thumb_up</span>
+                        <p>Like</p>
+                    </div>
+
+                    <div class="post__option">
+                        <span class="material-icons">chat_bubble_outline</span>
+                        <p>Comment</p>
+                    </div>
+
+                    <div class="post__option">
+                        <span class="material-icons">near_me</span>
+                        <p>Share</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post__top">
+                    <img class="user__avatar post__avatar" src="./assets/images/avatar3.jpg" alt="">
+                    <div class="post__topInfo">
+                        <h3>User777</h3>
+                        <p>02 março ás 16:26</p>
+                    </div>
+                </div>
+
+                <div class="post__bottom">
+                    <p>message</p>
+                </div>
+
+                <div class="post__image">
+                    <img src="./assets/images/post3.jpg" alt="">
+                </div>
+
+                <div class="post__options">
+                    <div class="post__option">
+                        <span class="material-icons">thumb_up</span>
+                        <p>Like</p>
+                    </div>
+
+                    <div class="post__option">
+                        <span class="material-icons">chat_bubble_outline</span>
+                        <p>Comment</p>
+                    </div>
+
+                    <div class="post__option">
+                        <span class="material-icons">near_me</span>
+                        <p>Share</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim Post-->
+        </div>
+        <!-- Fim do Feed-->
+
+        <div style="flex:0.33"class="widgets">
+            <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="500" data-height="1000" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Meta</a></blockquote></div>
+        </div>
+    </div>
+    <!-- Fim do corpo principal-->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v13.0"
+        nonce="soQbN6za"></script>
+</body>
+
+</html>
